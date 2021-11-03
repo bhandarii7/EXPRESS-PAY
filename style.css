@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar{
+    width: 100%;
+    padding: 10px;
+    background-color: #000D6B;
+    color: #FF5DA2;
+}
+
+.product-container{
+    width: 100%;
+    height: max-content;
+    min-height:80vh;
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+
+}
+.starter-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.product{
+display: flex;
+flex-flow: column;
+height: max-content;
+border: 2px solid black;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+    margin: 20px 10px 0px 10px;
+}
+
+.product-name , .product-price{
+    font-size: 1rem;
+    vertical-align:middle;
+}
+
+.checkout-container{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.btn{
+ margin-right: 20px;
+ margin-bottom: 30px;
+ height: 50px;
+ width: 105px;
+ background-color: #9C19E0;
+ border: none;
+ border-radius: 20px;
+ color: white;
+ font-size: medium;
+ font-weight: bolder;
+ cursor: pointer;
+ 
+}
+
+.cancel-btn{
+    background-color: red;
+}
